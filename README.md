@@ -419,7 +419,7 @@ Run the attacks after implementing the firewall:  <br/>
 <p align="center">
 <img src="https://i.imgur.com/INUEmdn.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
-<img src="https://i.imgur.com/cTPXgYy.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/cTPXgYy.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
 <br />
  
 - <b>We can notice that it immediately turned back to normal, regaining its connectivity, considering taht the first 3 connections were a bit delayed</b>
