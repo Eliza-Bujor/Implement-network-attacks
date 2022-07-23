@@ -357,6 +357,79 @@ Network attacks: (DoS attack)  <br/>
 <br />
 <br />
 Network defence: (Firewall)  <br/>
+
+- <b>The port 81 has been introduced to the iptables </b>
+
+<p align="center">
+<img src="https://i.imgur.com/wl6noUU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+ 
+- <b>Drops invalid network traffic packets </b>
+
+<p align="center">
+<img src="https://i.imgur.com/9Ubkj6d.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+ 
+- <b>Allows SSH connection </b>
+
+<p align="center">
+<img src="https://i.imgur.com/PHd9Oji.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+ 
+- <b>Those commands will drop TCP-based attacks: </b>
+- <b>Blocks not SYN packets and not established TCP connections (invalid connections) </b>
+
+<p align="center">
+<img src="https://i.imgur.com/Qs6Iqsd.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+ 
+- <b>Blocks new packets with no SYN flag </b>
+
+<p align="center">
+<img src="https://i.imgur.com/PyLwP6g.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+ 
+- <b>Blocks suspicious SYN floods packets </b>
+
+<p align="center">
+<img src="https://i.imgur.com/XcgT7Ha.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+ 
+- <b>Blocks TCP packets taht don't seem legitimate </b>
+
+<p align="center">
+<img src="https://i.imgur.com/EAvoLVP.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<img src="https://i.imgur.com/mzvLFVk.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+ 
+- <b>Limits the TCP connections/sec for each IP address as well the connections/source IP </b>
+
+<p align="center">
+<img src="https://i.imgur.com/U1sYtjM.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+ 
+- <b>Limits RST packets</b>
+
+<p align="center">
+<img src="https://i.imgur.com/ygcPpRC.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Run the attacks after implementing the firewall:  <br/>
+<p align="center">
+<img src="https://i.imgur.com/INUEmdn.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<img src="https://i.imgur.com/cTPXgYy.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+ 
+- <b>We can notice that it immediately turned back to normal, regaining its connectivity, considering taht the first 3 connections were a bit delayed</b>
+
+<p align="center">
+<img src="https://i.imgur.com/WxyYN2g.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<img src="https://i.imgur.com/L4f1PZg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
 </p>
 
 <!--
